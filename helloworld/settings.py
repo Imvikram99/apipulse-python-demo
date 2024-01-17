@@ -128,9 +128,9 @@ BASE_URL = 'http://localhost:8080'
 import apipulse_python
 # from apipulse_python.core.apipulse_sdk import init
 apipulse_python.init(
-  url=BASE_URL,       # the shortloop url for your org. (Provided by ShortLoop team.)
+  url=BASE_URL,       # the apipulse url for your org. (Provided by apipulse team.)
   application_name="amit_from_short",                # your application name here
-  auth_key="test123", # ShortLoop Auth Key. (Provided by ShortLoop team.)
+  auth_key="test123", # apipulse Auth Key. (Provided by apipulse team.)
   environment="dev12",                  # for e.g stage or prod
   capture='no',
   partner_id="PYTHONMAN",
